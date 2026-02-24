@@ -1,2 +1,2 @@
 # Meu portfólio - Teste
-este é um teste com html e css para construir um portfólio
+este é um teste sobre tudo que consegui aprender sozinho 
