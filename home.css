@@ -1,0 +1,110 @@
+/* Exemplo de Reset Básico */
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+
+nav ul {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    background-color: #4f0b6e;
+    box-shadow: 10px 10px 20px black;
+    list-style: none;
+    padding: 20px 100px;
+    top: 0%;
+    left: 0%;
+    right: 0%; 
+}
+
+li a {
+    background-color: #e0d3de;
+    box-shadow: 2px 2px 1px 2px black;
+    border-radius: 20px;
+    color: #4f0b6e;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: rgb(255, 238, 0);
+    margin: 10%;
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    background-color: #8a24c1;
+    
+}
+
+main {
+    flex: 1;
+    background-color: #4f0b6e;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 5px 5px 20px  black ;
+    padding: 40px;
+    margin: 8%;
+}
+
+
+h1 {
+    color:  #4f0b6e;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 3px 3px 4px 3px rgb(128, 126, 126);
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-width: 8px;
+}
+    
+
+ img {
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px rgba(155, 135, 56, 0.74);
+}
+
+ #Contato {
+    background-color: #e0d3de;
+    border-radius: 50px;
+}
+
+#Projetos {
+    background-color: #e0d3de;
+    border-radius: 50px;
+}
+
+
+
+#Sobre {
+    color: black;
+     background-color: #e0d3de;
+     border-radius: 50px;
+     margin-top: 10%;
+     margin-bottom: 10%;
+     padding: 10px;
+}
+
+.box-contato {
+    background-color: rgb(222, 232, 232);
+    border-radius: 50px;
+    padding: 50px;
+}
+
+
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #4f0b6e;
+    box-shadow: inset 5px 5px 15px black;
+    padding: 20px;
+
+}
